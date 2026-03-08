@@ -41,7 +41,7 @@ const ServiceDetail = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">{service.title}</h1>
             <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-8">{service.description}</p>
             {service.subServices.length > 0 && (
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap gap-3 max-w-[60%] md:max-w-[65%]">
                 {service.subServices.map((sub) => (
                   <span key={sub} className="px-3 py-1 bg-white/10 rounded-sm text-sm text-white/80">
                     {sub}
