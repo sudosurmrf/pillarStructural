@@ -34,7 +34,7 @@ const About = () => {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-xs font-bold uppercase tracking-[0.3em] text-brand-accent mb-4">Our Story</h2>
-              <h3 className="text-3xl font-bold text-brand-primary mb-6 tracking-tight">Engineering Solutions That Stand the Test of Time</h3>
+              <h3 className="text-3xl font-bold text-brand-primary mb-6 tracking-tight">Professional Engineering Solutions That Stand the Test of Time</h3>
               <p className="text-brand-secondary leading-relaxed mb-6">
                 Pillar Structural Engineers was founded with a clear mission: to deliver precise, code-compliant structural engineering services that bring our clients' visions to life safely and efficiently. What started as a focused practice in signage engineering has grown into a full-service structural firm serving diverse project types.
               </p>
@@ -42,7 +42,7 @@ const About = () => {
                 Today, we are dually licensed in Nevada and Iowa, with plans to expand into additional states in the near future. Our team brings deep expertise across signage structures, shade systems, swimming pools, CMU walls, staircase systems, and permit processing.
               </p>
               <p className="text-brand-secondary leading-relaxed mb-6">
-                What truly sets our team apart is the depth of our academic and professional credentials. Our engineers hold <strong className="text-brand-primary">Ph.D. degrees</strong> and <strong className="text-brand-primary">Master of Science in Civil Engineering (MSCE)</strong> certifications, bringing an advanced level of analytical rigor and research-driven problem-solving to every project. This academic foundation, combined with decades of practical field experience, ensures that our designs are not only code-compliant but engineered to the highest standard.
+                What truly sets our team apart is the depth of our academic and professional credentials. Our engineers hold <strong className="text-brand-primary">Professional Engineer (PE) licenses</strong>, <strong className="text-brand-primary">Ph.D. degrees</strong>, and <strong className="text-brand-primary">Master of Science in Civil Engineering (MSCE)</strong> certifications, bringing an advanced level of analytical rigor and research-driven problem-solving to every project. Each PE license represents rigorous state-level examination and a commitment to public safety, authorizing our engineers to stamp and certify structural designs. This combination of professional licensure and academic foundation, paired with decades of practical field experience, ensures that our designs are not only code-compliant but engineered to the highest standard.
               </p>
               <p className="text-brand-secondary leading-relaxed">
                 We pride ourselves on fast turnaround times, competitive pricing, and a hands-on approach that keeps our clients informed at every stage of the engineering process.
@@ -73,8 +73,8 @@ const About = () => {
               </div>
               <div className="bg-gray-50 p-8 rounded-sm border border-gray-100 text-center">
                 <GraduationCap className="w-8 h-8 text-brand-accent mx-auto mb-4" />
-                <div className="text-2xl font-bold text-brand-primary mb-1">Ph.D. & MSCE</div>
-                <p className="text-xs uppercase tracking-widest text-brand-secondary font-medium">Credentialed Engineers</p>
+                <div className="text-2xl font-bold text-brand-primary mb-1">PE, Ph.D. & MSCE</div>
+                <p className="text-xs uppercase tracking-widest text-brand-secondary font-medium">Licensed & Credentialed</p>
               </div>
             </motion.div>
           </div>

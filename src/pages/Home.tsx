@@ -239,7 +239,7 @@ const Process = () => {
               Whether it's a complex staircase for a luxury home or a massive pylon sign for a commercial center, we have the expertise to make it stand.
             </p>
             <ul className="space-y-4 mb-10">
-              {['Dually Licensed PE in Nevada & Iowa', '20+ Years Of Experience', 'Fast Turnaround Times', 'Competitive Pricing', 'BIM & 3D Modeling'].map((item, i) => (
+              {['Dually Licensed PE in Nevada & Iowa', 'Ph.D. & MSCE Credentialed Engineers', '20+ Years Of Experience', 'Fast Turnaround Times', 'Competitive Pricing', 'BIM & 3D Modeling'].map((item, i) => (
                 <li key={i} className="flex items-center gap-3">
                   <CheckCircle2 className="w-5 h-5 text-brand-accent" />
                   <span className="font-medium">{item}</span>
